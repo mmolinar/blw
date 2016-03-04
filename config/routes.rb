@@ -1,4 +1,36 @@
 Rails.application.routes.draw do
+  get 'pages/home'
+
+  get 'pages/about'
+
+  get 'pages/que'
+
+  get 'pages/definicion'
+
+  get 'pages/porque'
+
+  get 'pages/formula'
+
+  get 'pages/como'
+
+  get 'pages/cuando'
+
+  get 'pages/tipo'
+
+  get 'pages/seguridad'
+
+  get 'pages/ahogamiento'
+
+  get 'pages/primeros'
+
+  get 'pages/nutricion'
+
+  get 'pages/hierro'
+
+  get 'pages/cantidad'
+
+  get 'pages/alergias'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
