@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BlwEspanol</title>
+  <title>BLW en Españoltitle>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link rel="stylesheet" id="font-awesome-css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css" media="all">
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+<div class='container'>
+ <header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+   <div class="wrap">
+     <div class="title-area">
+       <p class="site-title" itemprop="headline"><a href="#">BLW en Español</a></p>
+    </div>
+  <div class="widget-area header-widget-area">
+    <h2 class="genesis-sidebar-title screen-reader-text">Header Right</h2>
+    <section id="nav_menu-3" class="widget widget_nav_menu">
+      <div class="widget-wrap">
+        <nav class="nav-header" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+          <ul id="menu-top-nav" class="menu genesis-nav-menu js-superfish sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+            <li id="menu-item-37281" class="start-here menu-item menu-item-type-post_type menu-item-object-page menu-item-37281">
+              <a href="http://www.mommypotamus.com/new-start-here/" itemprop="url">
+                <span itemprop="name">Start Here
+                </span>
+              </a>
+            </li>
+            <li id="menu-item-37170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37170">
+              <a href="http://www.mommypotamus.com/blog/" itemprop="url">
+                <span itemprop="name">Blog</span>
+              </a>
+            </li>
+            <li id="menu-item-32198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32198">
+              <a href="http://www.mommypotamus.com/about/" itemprop="url">
+                <span itemprop="name">About</span>
+              </a>
+            </li>
+            <li id="menu-item-37173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37173">
+              <a href="http://www.mommypotamus.com/videos/" itemprop="url">
+                <span itemprop="name">Videos</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section> 
+    <section id="search-2" class="widget widget_search">
+      <div class="widget-wrap">
+        <form class="search-form" itemprop="potentialAction" itemscope="" itemtype="http://schema.org/SearchAction" method="get" action="http://www.mommypotamus.com/" role="search">
+          <meta itemprop="target" content="http://www.mommypotamus.com/?s={s}">
+          <label class="search-form-label screen-reader-text" for="searchform-56d8fdffed80f">Search</label>
+          <input itemprop="query-input" type="search" name="s" id="searchform-56d8fdffed80f" placeholder="Search" autocomplete="off">
+          <input type="submit" value="">
+        </form>
+      </div>
+    </section>
+  </div>
+  </div>
+  </header>
+</div>
 
 </body>
 </html>
