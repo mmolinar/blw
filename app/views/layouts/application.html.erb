@@ -34,10 +34,10 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+    <!-- PT Sans y Roboto Slab -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab|PT+Sans+Narrow|PT+Sans' rel='stylesheet' type='text/css'>  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
 </head>
 <body data-pinterest-extension-installed="cr1.39.1">
     <!--<div class="navbar-wrapper">-->
@@ -45,10 +45,10 @@
         <!-- Header collapse menu using nav-pills ===========================-->
         <div class="center-pills">
           <ul class="nav nav-pills pull-right head-menu">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Libros</a></li>
-            <li><a href="#"> Tienda</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a class="nav-text" href="#">ABOUT</a></li>
+            <li><a class="nav-text" href="#">LIBROS</a></li>
+            <li><a class="nav-text" href="#">TIENDA</a></li>
+            <li><a class="nav-text" href="#">CONTACTO</a></li>
           </ul>
           <div class="text-left">
             <a href="#"><h1>BLW en Español</h1></a>
@@ -67,10 +67,10 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav col-md-12">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a class="navbar-links" href="#">Home</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">¿Cómo comenzar? <span class="caret"></span></a>
+                  <a  class="navbar-links" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">¿Cómo comenzar? <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Edad recomendada</a></li>
                     <li><a href="#">Guia para comenzar</a></li>
@@ -82,7 +82,7 @@
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Seguridad <span class="caret"></span></a>
+                  <a class="navbar-links" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Seguridad <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Reglas de seguridad</a></li>
                     <li><a href="#">Ahogamiento</a></li>
@@ -91,7 +91,7 @@
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nutrición <span class="caret"></span></a>
+                  <a class="navbar-links" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nutrición <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Nutrición</a></li>
                     <li><a href="#">Hierro</a></li>
@@ -100,7 +100,7 @@
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <a class="navbar-links" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Action</a></li>
                     <li><a href="#">Another action</a></li>

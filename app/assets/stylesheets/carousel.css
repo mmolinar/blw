@@ -1,0 +1,123 @@
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.625;
+  color: #572B5E;
+}
+
+body>div {
+    font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-size: 54px;
+    font-size: 5.4rem;
+}
+
+h2{
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 10px;
+}
+
+.navbar-default { 
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-nav a { 
+  font-weight: 400;
+  font-family: 'Roboto Slab', serif;
+  /*color: #ffffff;*/
+}
+
+.nav-pills{
+  font-size: 16px;
+  font-size: 2rem;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  /*line-height: 1;
+  width: 100%;*/
+}
+
+#siteTitle{
+  font-size: 32px;
+  font-size: 3.2rem;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  /*line-height: 1.2;*/
+}
+
+.nav-text{
+  color: #572B5E;
+}
+
+.navbar-links a{
+  color: #403A4E;
+  font-family: "Garamond", serif;
+}
+
+/*.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  line-height: 1.42857143;
+  color: #45342a;
+}
+
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #337ab7;
+  outline: 0;
+}
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  color: #777;
+}
+
+.btn-link {
+  font-weight: normal;
+  color: #337ab7;
+  border-radius: 0;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}*/
