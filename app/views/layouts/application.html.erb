@@ -52,6 +52,7 @@
             <li class="nav-text"><%= link_to "LIBROS", pages_libros_path %></li>
             <li class="nav-text"><%= link_to "TIENDA", pages_tienda_path %></li>
             <li class="nav-text"><%= link_to "CONTACTO", pages_contacto_path%></li>
+            <!--<li class="nav-text"><= link_to "FOTOS", #%></li>-->
           </ul>
           <div id="siteTitle">
             <a href="/"><h1>BLW en Español</h1></a> <!-- This is for the little "logo" next to AH -->
@@ -70,12 +71,20 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav col-md-12">
-                <li class="active"><a class="navbar-links" href="#">Home</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="active"><a class="navbar-links" href="#">Inicio</a></li>
+                  <li class="dropdown">
+                  <a class="navbar-links" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Baby Led Weaning <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><%= link_to "Definición", pages_definicion_path%></li>
+                    <li><%= link_to "Beneficios", pages_porque_path%></li>
+                    <li><%= link_to "Bebes de fórmula", pages_formula_path%></li>
+                    <li role="separator" class="divider"></li>
+                  </ul>
+                </li>
                 <li class="dropdown">
                   <a  class="navbar-links" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">¿Cómo empezar? <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Edad recomendada</a></li>
+                    <li><%= link_to "Edad recomendada", pages_cuando_path%></li>
                     <li><a href="#">Guía para empezar</a></li>
                     <li><a href="#">Tipo de comida</a></li>
                     <li role="separator" class="divider"></li>
@@ -100,18 +109,6 @@
                     <li><a href="#">Hierro</a></li>
                     <li><a href="#">Cantidades</a></li>
                     <li><a href="#">Alergias</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a class="navbar-links" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">¿Qué es Baby Led Weaning? <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Definición</a></li>
-                    <li><a href="#">Beneficios</a></li>
-                    <li><a href="#">Bebés de fórmula</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
                   </ul>
                 </li>
                 <form class="navbar-form navbar-right" role="search">

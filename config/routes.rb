@@ -4,15 +4,15 @@ Rails.application.routes.draw do
 
   get 'pages/que'
 
-  get 'pages/definicion'
+  get 'pages/definicion' => 'pages#definicion'
 
-  get 'pages/porque'
+  get 'pages/porque' => 'pages#porque'
 
   get 'pages/formula'
 
   get 'pages/como'
 
-  get 'pages/cuando'
+  get 'pages/cuando' => 'pages#cuando'
 
   get 'pages/tipo'
 
