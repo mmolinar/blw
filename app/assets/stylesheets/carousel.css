@@ -68,6 +68,11 @@ h2{
   font-family: "Garamond", serif;
 }
 
+.onceUpon{
+  font-weight: bold;
+  font-size: larger;
+}
+
 /*.dropdown-menu > li > a {
   display: block;
   padding: 3px 20px;
