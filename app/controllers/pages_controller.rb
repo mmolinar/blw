@@ -46,4 +46,13 @@ class PagesController < ApplicationController
 
   def alergias
   end
+  
+  def libros
+  end
+  
+  def tienda
+  end
+  
+  def contacto
+  end
 end
