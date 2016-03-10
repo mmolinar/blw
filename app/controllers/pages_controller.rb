@@ -32,7 +32,7 @@ class PagesController < ApplicationController
   def ahogamiento
   end
 
-  def primeros
+  def primeros_auxilios
   end
 
   def nutricion
@@ -41,9 +41,27 @@ class PagesController < ApplicationController
   def hierro
   end
 
-  def cantidad
+  def cantidades
   end
 
   def alergias
   end
+  
+  def libros
+  end
+  
+  def tienda
+  end
+  
+  def contacto
+  end
+  
+  def alimentos_peligrosos
+  end
+  
+  def cuando_no
+  end 
+  
+  def consejos_para_todos
+  end 
 end

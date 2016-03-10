@@ -1,35 +1,48 @@
 Rails.application.routes.draw do
-  root 'pages#home'
+  
+  get 'pages/consejos_para_todos' => 'pages#consejos_para_todos'
+  
+  get 'pages/cuando_no' => 'pages#cuando_no'
+  
+  get 'pages/alimentos_peligrosos' => 'pages#alimentos_peligrosos'
 
-  get 'pages/about'
+  get 'pages/about' => 'pages#about'
 
   get 'pages/que'
 
-  get 'pages/definicion'
+  get 'pages/definicion' => 'pages#definicion'
 
-  get 'pages/porque'
+  get 'pages/beneficios' => 'pages#beneficios'
 
   get 'pages/formula'
 
-  get 'pages/como'
+  get 'pages/como' => 'pages#como'
 
-  get 'pages/cuando'
+  get 'pages/cuando' => 'pages#cuando'
 
-  get 'pages/tipo'
+  get 'pages/tipo' => 'pages#tipo'
 
-  get 'pages/seguridad'
+  get 'pages/seguridad' => 'pages#seguridad'
 
-  get 'pages/ahogamiento'
+  get '/pages/ahogamiento' => 'pages#ahogamiento'
 
-  get 'pages/primeros'
+  get '/pages/primeros_auxilios' => 'pages#primeros_auxilios' 
 
-  get 'pages/nutricion'
+  get '/pages/nutricion' => 'pages#nutricion'
 
-  get 'pages/hierro'
+  get '/pages/hierro' => 'pages#hierro'
 
-  get 'pages/cantidad'
+  get '/pages/cantidades' => 'pages#cantidades'
 
-  get 'pages/alergias'
+  get '/pages/alergias' => 'pages#alergias'
+  
+  get '/pages/contacto' => 'pages#contacto'
+  
+  get '/pages/libros' => 'pages#libros'
+  
+  get '/pages/tienda' => 'pages#tienda'
+  
+  root 'pages#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
