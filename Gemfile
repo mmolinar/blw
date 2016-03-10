@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 #Declare Ruby version
 ruby '2.3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0'
+gem 'rails', '4.2.5.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
 
@@ -14,7 +14,7 @@ group :production do
 end
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~>5.0.4'
 #Use bootstrap library for style
 gem 'bootstrap-sass', '~>3.3.1'
 #Use font awesome library for icons
@@ -39,10 +39,10 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 # Use paperclip for image uploads
-gem "paperclip", "~> 4.3"
+gem 'paperclip', '~> 4.3', '>= 4.3.5'
 
 # Use paperclip for Google Drive 
-gem 'paperclip-googledrive'
+gem 'paperclip-googledrive-new', '~> 1.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
