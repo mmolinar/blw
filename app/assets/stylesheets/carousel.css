@@ -1,13 +1,13 @@
 body{
   font-family: 'PT Sans', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.625;
 }
 
 body>div {
-    font-size: 2rem;
+    font-size: 1.25rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -73,6 +73,15 @@ h2{
   font-size: larger;
 }
 
+.containerVid {
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  /*padding-left: 80px;*/
+}
+
+#videoCarlosTed{
+  text-align: center;
+}
 /*.dropdown-menu > li > a {
   display: block;
   padding: 3px 20px;

@@ -16,9 +16,9 @@ Rails.application.routes.draw do
 
   get 'pages/formula'
 
-  get 'pages/como' => 'pages#como'
+  get 'pages/guia_para_empezar' => 'pages#guia_para_empezar'
 
-  get 'pages/cuando' => 'pages#cuando'
+  get 'pages/edad' => 'pages#edad'
 
   get 'pages/tipo' => 'pages#tipo'
 
@@ -41,6 +41,8 @@ Rails.application.routes.draw do
   get '/pages/libros' => 'pages#libros'
   
   get '/pages/tienda' => 'pages#tienda'
+  
+  get '/pages/estudios_y_referencias' => 'pages#estudios_y_referencias'
   
   root 'pages#home'
 
