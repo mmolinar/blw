@@ -10,19 +10,43 @@ body>div {
     font-size: 1.25rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'PT Sans', sans-serif;
-}
-
 h1 {
     font-size: 54px;
     font-size: 5.4rem;
+    color: #70548b;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.entry-title{
+    font-size: 54px;
+    font-size: 5.4rem;
+    margin-bottom: 15px;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 10px;
 }
 
 h2{
   font-weight: 700;
   line-height: 1.2;
   margin: 0 0 10px;
+  font-size: 42px;
+  font-size: 4.2rem;
+  font-family: 'PT Sans Narrow',sans-serif;
+}
+
+.entry-content {
+    font-family: 'PT Sans',sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 36px;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 10px;
 }
 
 .navbar-default { 
@@ -49,17 +73,17 @@ h2{
   width: 100%;*/
 }
 
-#siteTitle{
+#siteTitle a{
   font-size: 32px;
   font-size: 3.2rem;
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
-  color: #572B5E;
+  color: #eb7200; /*orange*/
   /*line-height: 1.2;*/
 }
 
 .nav a{
-  color: #572B5E; /*purple*/
+  color: #70548b; /*purple*/
   font-weight: 700;
 }
 
