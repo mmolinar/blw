@@ -1,25 +1,26 @@
 body{
   font-family: 'PT Sans', sans-serif;
-  font-size: 16px;
-  font-size: 1.25rem;
+  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.625;
+  line-height: 1.25;
 }
 
 body>div {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
+
 h1 {
-    font-size: 54px;
-    font-size: 5.4rem;
+    font-size: 48px;
+    font-size: 3.429rem;
     color: #70548b;
     font-family: 'PT Sans', sans-serif;
 }
 
 .entry-title{
-    font-size: 54px;
-    font-size: 5.4rem;
+    font-size: 48px;
+    font-size: 3.429rem;
     margin-bottom: 15px;
     font-family: 'PT Sans Narrow',sans-serif;
     font-weight: 700;
@@ -31,8 +32,8 @@ h2{
   font-weight: 700;
   line-height: 1.2;
   margin: 0 0 10px;
-  font-size: 42px;
-  font-size: 4.2rem;
+  font-size: 38px;
+  font-size: 2.714rem;
   font-family: 'PT Sans Narrow',sans-serif;
 }
 
@@ -42,8 +43,8 @@ h2{
 }
 
 h3 {
-    font-size: 36px;
-    font-size: 3.6rem;
+    font-size: 30px;
+    font-size: 2.143rem;
     font-weight: 700;
     line-height: 1.2;
     margin: 0 0 10px;
@@ -75,7 +76,7 @@ h3 {
 
 #siteTitle a{
   font-size: 32px;
-  font-size: 3.2rem;
+  font-size: 2.286rem;
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
   color: #eb7200; /*orange*/
@@ -120,6 +121,9 @@ h3 {
 .container .jumbotron{
     padding-top: 10px;
     padding-bottom: 20px;
+    margin-left: 95px;
+    margin-right: 95px;
+
 }
 
 /*.dropdown-menu > li > a {
