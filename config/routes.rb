@@ -44,6 +44,8 @@ Rails.application.routes.draw do
   
   get '/pages/estudios_y_referencias' => 'pages#estudios_y_referencias'
   
+  get '/pages/reflejo_nauseoso' => 'pages#reflejo_nauseoso'
+  
   root 'pages#home'
 
   # The priority is based upon order of creation: first created -> highest priority.

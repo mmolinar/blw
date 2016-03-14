@@ -67,4 +67,7 @@ class PagesController < ApplicationController
   
   def estudios_y_referencias
   end
+  
+  def reflejo_nauseoso
+  end
 end
