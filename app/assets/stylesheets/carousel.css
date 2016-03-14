@@ -1,24 +1,30 @@
 body{
   font-family: 'PT Sans', sans-serif;
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.625;
+  line-height: 1.25;
 }
 
 body>div {
-    font-size: 2rem;
-}
-
-h3, h4, h5, h6 {
-    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
 }
 
 h1 {
-    font-size: 54px;
-    font-size: 5.4rem;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 48px;
+    font-size: 3.429rem;
+    color: #70548b;
+    font-family: 'PT Sans', sans-serif;
+}
 
+.entry-title{
+    font-size: 48px;
+    font-size: 3.429rem;
+    margin-bottom: 15px;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 10px;
 }
 
 h2{
@@ -26,7 +32,22 @@ h2{
   line-height: 1.2;
   margin: 0 0 10px;
   font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 38px;
+  font-size: 2.714rem;
+}
 
+.entry-content {
+    font-family: 'PT Sans',sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 30px;
+    font-size: 2.143rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 10px;
+>>>>>>> pages
 }
 
 .navbar-default { 
@@ -53,17 +74,17 @@ h2{
   width: 100%;*/
 }
 
-#siteTitle{
+#siteTitle a{
   font-size: 32px;
-  font-size: 3.2rem;
+  font-size: 2.286rem;
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
-  color: #572B5E;
+  color: #eb7200; /*orange*/
   /*line-height: 1.2;*/
 }
 
 .nav a{
-  color: #572B5E; /*purple*/
+  color: #70548b; /*purple*/
   font-weight: 700;
 }
 
@@ -75,6 +96,34 @@ h2{
 .onceUpon{
   font-weight: bold;
   font-size: larger;
+}
+
+.containerVid {
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  /*padding-left: 80px;*/
+}
+
+#videoCarlosTed{
+  text-align: center;
+}
+/* Hide AddToAny vertical share bar when screen is less than 980 pixels wide */
+@media screen and (max-width: 680px) {
+    .a2a_floating_style.a2a_vertical_style { display: none; }
+}
+
+@media screen and (min-width: 768px){
+.container .jumbotron {
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.container .jumbotron{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 95px;
+    margin-right: 95px;
+
 }
 
 /*.dropdown-menu > li > a {

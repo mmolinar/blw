@@ -17,10 +17,10 @@ class PagesController < ApplicationController
   def formula
   end
 
-  def como
+  def guia_para_empezar
   end
 
-  def cuando
+  def edad
   end
 
   def tipo
@@ -64,4 +64,7 @@ class PagesController < ApplicationController
   
   def consejos_para_todos
   end 
+  
+  def estudios_y_referencias
+  end
 end
