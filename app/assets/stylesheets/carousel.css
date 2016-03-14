@@ -1,26 +1,22 @@
-body{
+p{
   font-family: 'PT Sans', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.25;
 }
 
-body>div {
-    font-size: 1rem;
-}
-
 
 h1 {
-    font-size: 48px;
-    font-size: 3.429rem;
+    font-size: 40px;
+    font-size: 3.333rem;
     color: #70548b;
     font-family: 'PT Sans', sans-serif;
 }
 
 .entry-title{
-    font-size: 48px;
-    font-size: 3.429rem;
+    font-size: 40px;
+    font-size: 3.333rem;
     margin-bottom: 15px;
     font-family: 'PT Sans Narrow',sans-serif;
     font-weight: 700;
@@ -32,8 +28,13 @@ h2{
   font-weight: 700;
   line-height: 1.2;
   margin: 0 0 10px;
+<<<<<<< HEAD
   font-size: 38px;
   font-size: 2.714rem;
+=======
+  font-size: 32px;
+  font-size: 2.667rem;
+>>>>>>> pages
   font-family: 'PT Sans Narrow',sans-serif;
 }
 
@@ -43,8 +44,13 @@ h2{
 }
 
 h3 {
+<<<<<<< HEAD
     font-size: 30px;
     font-size: 2.143rem;
+=======
+    font-size: 24px;
+    font-size: 2rem;
+>>>>>>> pages
     font-weight: 700;
     line-height: 1.2;
     margin: 0 0 10px;
@@ -95,7 +101,6 @@ h3 {
 
 .onceUpon{
   font-weight: bold;
-  font-size: larger;
 }
 
 .containerVid {
