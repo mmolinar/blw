@@ -1,5 +1,5 @@
 p{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-size: 1rem;
   font-weight: 400;
@@ -17,23 +17,23 @@ p{
     font-size: 52px;
     font-size: 5.3rem;
     margin-bottom: 15px;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-weight: 700;
     line-height: 1.2;
     margin: 0 0 10px;
 }
 
-h2{
+.jumbotron h2{
   font-weight: 700;
   line-height: 1.2;
   margin: 0 0 10px;
   font-size: 32px;
   font-size: 3rem;
-  font-family: 'PT Sans Narrow',sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
 }
 
 .entry-content {
-    font-family: 'PT Sans',sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     text-transform: uppercase;
 }
 
