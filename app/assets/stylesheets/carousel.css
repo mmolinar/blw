@@ -117,16 +117,15 @@ h3 {
 .container .jumbotron{
     padding-top: 10px;
     padding-bottom: 20px;
-    margin-left: 95px;
-    margin-right: 95px;
-
+    margin-left: 85px;
+    margin-right: 85px;
 }
 
 .quotes{
   font-size: larger;
 }
 
-.quoteContent{
+.blockquote .quoteContent{
   font-style: italic;
 }
 
