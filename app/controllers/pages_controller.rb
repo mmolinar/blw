@@ -70,4 +70,7 @@ class PagesController < ApplicationController
   
   def reflejo_nauseoso
   end
+  
+  def reflejo_extrusion
+  end
 end
