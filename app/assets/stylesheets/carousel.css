@@ -78,7 +78,7 @@ h3 {
   /*line-height: 1.2;*/
 }
 
-.nav a:link, .nav a:visited, .nav a:hover, .nav a:active{
+.nav-pills a:link, .nav-pills a:visited, .nav-pills a:hover, .nav-pills a:active{
   color: #70548b; /*purple*/
   font-weight: 700;
 }
@@ -93,8 +93,18 @@ h3 {
     color: #777;
 }
 
+#myCarousel a:link, #myCarousel a:visited, #myCarousel a:hover, #myCarousel a:active{ 
+    text-decoration: none; 
+    color: #ffffff;
+}
+
+.col-lg-4 a:link, .col-lg-4 a:visited, .col-lg-4 a:hover, .col-lg-4 a:active{ 
+    text-decoration: none; 
+    color: #777;
+}
+
 a:visited{
-  color: #eb7200;
+  color: #eb7200; /*orange*/
 }
 
 .onceUpon{
