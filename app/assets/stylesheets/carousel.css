@@ -78,7 +78,7 @@ h3 {
   /*line-height: 1.2;*/
 }
 
-.nav a{
+.nav a:link, .nav a:visited, .nav a:hover, .nav a:active{
   color: #70548b; /*purple*/
   font-weight: 700;
 }
@@ -86,6 +86,15 @@ h3 {
 .navbar-links a{
   color: #403A4E; /*gray*/
   font-family: "Garamond", serif;
+}
+
+.featurette-heading a:link, .featurette-heading a:visited, .featurette-heading a:hover, .featurette-heading a:active{ 
+    text-decoration: none; 
+    color: #777;
+}
+
+a:visited{
+  color: #eb7200;
 }
 
 .onceUpon{
@@ -135,7 +144,7 @@ h3 {
   font-family: "Roboto Slab", serif;
   line-height: 1.42857143;
   color: #45342a;
-}
+}\
 
 .dropdown-menu > li > a {
   display: block;
