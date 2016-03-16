@@ -98,10 +98,18 @@ h3 {
     color: #ffffff;
 }
 
-.col-lg-4 a:link, .col-lg-4 a:visited, .col-lg-4 a:hover, .col-lg-4 a:active{ 
+.col-lg-4 a:link, .col-lg-4 a:visited{ 
     text-decoration: none; 
     color: #777;
 }
+
+.col-lg-4 a:hover{ 
+  color: #337ab7;/*blue*/
+}
+  
+/*.col-lg-4 a:active{
+  
+}*/
 
 a:visited{
   color: #eb7200; /*orange*/
