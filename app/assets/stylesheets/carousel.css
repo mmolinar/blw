@@ -154,6 +154,12 @@ blockquote .quoteContent{
   font-style: italic;
 }
 
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+
 /*.dropdown-menu > li > a {
   display: block;
   padding: 3px 20px;
