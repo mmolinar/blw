@@ -150,7 +150,10 @@ a:active{
 .container .jumbotron .content{
     padding-bottom: 20px;
     padding-left: 95px;
-    padding-right: 95px;
+    padding-right: 105px;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: left;
 }
 
 .container .jumbotron{
@@ -170,6 +173,8 @@ blockquote .quoteContent{
  height: auto;
  max-width: 100%;
 }
+
+
 
 /*.dropdown-menu > li > a {
   display: block;
