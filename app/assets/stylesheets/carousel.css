@@ -88,7 +88,7 @@ h3 {
   font-family: "Garamond", serif;
 }
 
-.featurette-heading a:link, .featurette-heading a:visited, .featurette-heading a:hover, .featurette-heading a:active{ 
+.col-md-7 .featurette-heading a:link, .col-md-7 .featurette-heading a:visited, .col-md-7 .featurette-heading a:hover, .col-md-7 .featurette-heading a:active{ 
     text-decoration: none; 
     color: #777;
 }
