@@ -142,16 +142,19 @@ a:active{
 }
 
 @media screen and (min-width: 768px){
-.container .jumbotron {
+.container .jumbotron .content{
     padding-top: 8px;
     padding-bottom: 20px;
 }
 
-.container .jumbotron{
-    padding-top: 10px;
+.container .jumbotron .content{
     padding-bottom: 20px;
-    margin-left: 85px;
-    margin-right: 85px;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.container .jumbotron{
+  padding-top: 15px;
 }
 
 .quotes{

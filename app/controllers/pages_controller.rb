@@ -14,7 +14,7 @@ class PagesController < ApplicationController
   def porque
   end
 
-  def formula
+  def botella
   end
 
   def guia_para_empezar

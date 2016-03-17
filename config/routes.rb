@@ -14,7 +14,7 @@ Rails.application.routes.draw do
 
   get 'pages/beneficios' => 'pages#beneficios'
 
-  get 'pages/formula'
+  get 'pages/botella'
 
   get 'pages/guia_para_empezar' => 'pages#guia_para_empezar'
 
