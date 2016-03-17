@@ -115,6 +115,14 @@ a:visited{
   color: #eb7200; /*orange*/
 }
 
+a:hover{
+  color: #777;
+}
+
+a:active{
+  color: #777;
+}
+
 .onceUpon{
   font-weight: bold;
 }
