@@ -160,11 +160,16 @@ a:active{
   padding-top: 15px;
 }
 
+.container .list-group-item.active{
+  background-color: #70548b;
+  border-color: #70548b;
+}
+
 .quotes{
   font-size: larger;
 }
 
-blockquote .quoteContent{
+.container .content .quoteContent{
   font-style: italic;
 }
 
