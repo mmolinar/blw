@@ -17,6 +17,11 @@
   font-family: "Garamond", serif;
 }
 
+a {
+    text-decoration: none;
+    color: green;
+}
+
 .col-md-7 .featurette-heading a:link, .col-md-7 .featurette-heading a:visited, .col-md-7 .featurette-heading a:hover, .col-md-7 .featurette-heading a:active{ 
     text-decoration: none; 
     color: #777;
