@@ -175,27 +175,3 @@ body {
     margin-top: 120px;
   }
 }
-
-#siteTitle a{
-  font-size: 32px;
-  font-size: 2.286rem;
-  font-family: 'Roboto Slab', serif;
-  font-weight: 700;
-  color: #eb7200; /*orange*/
-  /*line-height: 1.2;*/
-}
-
-.nav-pills a:link, .nav-pills a:visited, .nav-pills a:hover, .nav-pills a:active{
-  color: #70548b; /*purple*/
-  font-weight: 700;
-}
-
-.navbar-links a{
-  color: #403A4E; /*gray*/
-  font-family: "Garamond", serif;
-}
-
-.col-md-7 .featurette-heading a:link, .col-md-7 .featurette-heading a:visited, .col-md-7 .featurette-heading a:hover, .col-md-7 .featurette-heading a:active{ 
-    text-decoration: none; 
-    color: #777;
-}
